@@ -185,7 +185,32 @@ The churn dataset was examined to understand the distribution of customer churn 
 | Churn Status | Number of Customers |
 |---|---:|
 | 0 (Not Churned) | 77,673 |
-| 1 (Churned) |
+| 1 (Churned) | 22,327 |
+
+**Churn Reasons**
+
+| Churn Reason | Number of Records |
+|---|---:|
+| Price | 25,182 |
+| Bad Experience | 24,966 |
+| Competitor | 24,943 |
+| Low Engagement | 24,909 |
+
+**Observation:** Churn reasons are recorded for both churned and non-churned customers. This requires business clarification before interpreting the reason counts as churn-specific.
+
+---
+
+### 4.4 Support Ticket Categories
+
+Support ticket records were explored to understand the distribution of reported issue types.
+
+| Issue Type | Number of Tickets |
+|---|---:|
+| Technical | 20,148 |
+| Other | 20,143 |
+| Payment | 19,935 |
+| Refund | 19,890 |
+| Delivery | 19,884 |
 
 ---
 
