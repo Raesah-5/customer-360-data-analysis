@@ -26,3 +26,44 @@ The main objectives of this phase are:
 - Pandas
 - NumPy
 - Jupyter Notebook
+
+
+---
+
+## 2. Dataset Overview
+
+### 2.1 Available Datasets
+
+The project consists of five datasets containing customer-related information across different business areas.
+
+| Dataset | Number of Records | Description |
+|---|---:|---|
+| customers.csv | 100,000 | Customer demographic and profile information |
+| transactions.csv | 500,000 | Customer transaction records |
+| app_usage.csv | 100,000 | Customer application usage and engagement |
+| churn.csv | 100,000 | Customer churn status and related information |
+| support_tickets.csv | 100,000 | Customer support interactions and satisfaction |
+
+**Total Records:** 800,000
+
+### 2.2 Dataset Granularity
+
+Each dataset represents a different level of detail:
+
+| Dataset | Data Granularity |
+|---|---|
+| customers | One record per customer |
+| transactions | Multiple transaction records per customer |
+| app_usage | One record per customer |
+| churn | One record per customer |
+| support_tickets | Multiple support ticket records per customer |
+
+### 2.3 Key Identifiers
+
+The datasets use identifiers to connect customer information:
+
+- `customer_id`: Common identifier used to link customer-related records across datasets.
+- `transaction_id`: Unique identifier for each transaction.
+- `ticket_id`: Unique identifier for each support ticket.
+
+The `customer_id` field serves as the primary customer reference across the project datasets.
